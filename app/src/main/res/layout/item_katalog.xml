@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="8dp"
+    android:layout_marginHorizontal="4dp"
+    app:cardBackgroundColor="#C5E1A5"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/img_language_logo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/bg_rounded_icon"
+            android:src="@android:drawable/ic_menu_gallery"
+            app:tint="#33691E"
+            android:padding="12dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tv_language_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Python"
+                android:textColor="#1B5E20"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_language_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Multi-purpose, Data Science"
+                android:textColor="#558B2F"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="50dp"
+                android:layout_height="4dp"
+                android:layout_marginTop="12dp"
+                android:background="#8BC34A" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
