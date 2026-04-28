@@ -21,7 +21,6 @@
             android:layout_height="60dp"
             android:background="@drawable/bg_rounded_icon"
             android:src="@android:drawable/ic_menu_gallery"
-            app:tint="#33691E"
             android:padding="12dp"/>
 
         <LinearLayout
