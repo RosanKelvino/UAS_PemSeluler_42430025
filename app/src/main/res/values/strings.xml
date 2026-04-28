@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">KatalogBahasa</string>
+    <string name="app_name">KatalogBhs</string>
+    <string name="app_title">Katalog Bahasa Pemrograman</string>
 </resources>
