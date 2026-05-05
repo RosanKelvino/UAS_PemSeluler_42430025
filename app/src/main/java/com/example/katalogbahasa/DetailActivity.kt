@@ -24,5 +24,10 @@ class DetailActivity : AppCompatActivity() {
         if (iconResId != 0) {
             imgLogo.setImageResource(iconResId)
         }
+        val btnBack: ImageView = findViewById(R.id.btn_back)
+
+        btnBack.setOnClickListener {
+            finish()
+        }
     }
 }

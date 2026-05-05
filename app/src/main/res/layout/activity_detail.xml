@@ -1,20 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#E8F5E9"
     android:orientation="vertical"
-    android:padding="24dp"
-    android:gravity="center_horizontal">
+    android:padding="24dp">
+    <ImageView
+        android:id="@+id/btn_back"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/ic_arrow_back"
+        app:tint="#33691E"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true" />
 
     <ImageView
         android:id="@+id/img_detail_logo"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="16dp" />
-
-    <TextView
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center_horizontal" /> <TextView
         android:id="@+id/tv_detail_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
