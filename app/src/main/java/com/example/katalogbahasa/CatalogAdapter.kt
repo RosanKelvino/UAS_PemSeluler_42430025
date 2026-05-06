@@ -1,9 +1,10 @@
 package com.example.katalogbahasa
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView // 1. Tambahkan import ini
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
@@ -25,11 +26,25 @@ class CatalogAdapter(private var dataList: List<Language>) :
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val item = dataList[position]
         holder.tvName.text = item.name
-        holder.tvDesc.text = item.description
+        holder.tvDesc.text = item.shortDesc
 
         holder.imgLogo.setImageResource(item.iconResId)
-
         holder.imgLogo.imageTintList = null
+
+        holder.tvDesc.text = item.shortDesc
+
+        holder.itemView.setOnClickListener {
+            val context = holder.itemView.context
+            val intent = Intent(context, DetailActivity::class.java)
+
+            intent.putExtra("EXTRA_TITLE", item.name)
+
+            intent.putExtra("EXTRA_DESC", item.fullDesc)
+
+            intent.putExtra("EXTRA_ICON", item.iconResId)
+
+            context.startActivity(intent)
+        }
     }
 
     override fun getItemCount() = dataList.size
