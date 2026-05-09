@@ -28,12 +28,12 @@ Berikut adalah dokumentasi hasil pengujian aplikasi:
 ### 2. Fitur Pencarian & Pengurutan
 | Hasil Pencarian Data | Pengurutan (Sort A-Z) | Pengurutan (Sort Z-A) |
 | :---: | :---: | :---: |
-| ![Search](Screenshots/searching.jpeg) | ![Sort A-Z](Screenshots/A-Z.jpeg) | ![Sort Z-A](Screenshots/Z-A.jpeg) |
+| ![Search](https://github.com/RosanKelvino/UAS_PemSeluler_42430025/blob/master/Screenshot/searching.jpeg) | ![Sort A-Z](https://github.com/RosanKelvino/UAS_PemSeluler_42430025/blob/master/Screenshot/A-Z.jpeg) | ![Sort Z-A](https://github.com/RosanKelvino/UAS_PemSeluler_42430025/blob/master/Screenshot/Z-A.jpeg) |
 
 ### 3. Halaman Detail
 | Detail Potrait | Detail Landscape |
 | :---: | :---: |
-| ![Detail Potrait](Screenshots/detailPotrait.jpeg) | ![Detail Landscape](Screenshots/detailLandscape.jpeg) |
+| ![Detail Potrait](https://github.com/RosanKelvino/UAS_PemSeluler_42430025/blob/master/Screenshot/detailPotrait.jpeg) | ![Detail Landscape](https://github.com/RosanKelvino/UAS_PemSeluler_42430025/blob/master/Screenshot/detailLandscape.jpeg) |
 
 ---
 
@@ -42,4 +42,4 @@ Berikut adalah bukti log sistem di Android Studio yang menampilkan NIM saya
 
 | Logcat - NIM (42430025) |
 | :---: |
-| ![Logcat NIM](Screenshots/Logcat.jpeg) |
+| ![Logcat NIM](https://github.com/RosanKelvino/UAS_PemSeluler_42430025/blob/master/Screenshot/Logcat.png) |
