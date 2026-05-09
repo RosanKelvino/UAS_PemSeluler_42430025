@@ -23,7 +23,7 @@ Berikut adalah dokumentasi hasil pengujian aplikasi:
 ### 1. Tampilan Utama
 | Mode Portrait | Mode Landscape |
 | :---: | :---: |
-| ![Portrait](https://github.com/RosanKelvino/UAS_PemSeluler_42430025/blob/master/Screenshot/Potrait.jpeg) | ![Landscape]([Screenshots/Landscape.jpeg](https://github.com/RosanKelvino/UAS_PemSeluler_42430025/blob/master/Screenshot/Landscape.jpeg)) |
+| ![Portrait](https://github.com/RosanKelvino/UAS_PemSeluler_42430025/blob/master/Screenshot/Potrait.jpeg) | ![Landscape](https://github.com/RosanKelvino/UAS_PemSeluler_42430025/blob/master/Screenshot/Landscape.jpeg) |
 
 ### 2. Fitur Pencarian & Pengurutan
 | Hasil Pencarian Data | Pengurutan (Sort A-Z) | Pengurutan (Sort Z-A) |
